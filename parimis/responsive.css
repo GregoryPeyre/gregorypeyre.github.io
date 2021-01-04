@@ -1,0 +1,236 @@
+
+@media screen and (max-width: 785px) {
+  .menu-mobile{
+    display: block;
+    color: white;
+    background-color: rgba(10,10,10,0.1);
+    text-align: center;
+    padding: 12px 0px;
+  }
+  nav ul {
+  display: none;
+  }
+  nav ul li, nav ul li a {
+  width:100%;
+  text-align: center;
+  }
+  nav ul li a, nav ul li:hover a {
+  padding:10px 0px;
+  }
+  nav li:hover .sousmenu {
+  display: block;
+  position: static;
+  display:none;
+  }
+}
+  /* --------------------- MAIN --------------------- */
+
+  /* **************  POUR SMARTPHONE  ********************* */
+  @media screen and (max-width:767.98px){
+    .num1, .num2, .num3, .num4, .num5, .num6 {
+      width: 100%;}
+
+      .num7, .num8 {
+        width: 100%;}
+
+      .savoir {
+        border-radius: 15px;
+        background: rgba(161, 209, 173, 0.8);
+        width:50%;
+        margin: auto;
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+        padding:0.3em;
+        box-shadow: 0 5px 15px #c7c2c1;
+        color: white;
+      }
+      h1 {
+        text-transform : uppercase;
+        font-size: 2em;
+        font-weight: 400;
+        color: #626262;
+        padding-top: 1em;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+      h5 {
+        font-size: 1.3em;
+        font-weight: 700;
+        color: #626262;
+        text-align: center;
+        padding-top: 0.6em;
+        padding-bottom: 0.3em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h6 {
+        font-size: 1.4em;
+        font-weight: 400;
+        color: #626262;
+        text-align: center;
+        padding-top: 0.6em;
+        padding-bottom: 0.3em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      h3 {
+        text-transform: uppercase;
+        font-size: 1.3em;
+        font-weight: 400;
+        color: #626262;
+        text-align: center;
+        padding-bottom: 0.3em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .textecourant {
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+
+      .rgpd {
+        font-size: 1.3em;
+        font-weight: 700;
+        color: #626262;
+        text-align: center;
+        margin-top: 0.6em;
+        margin-bottom: 0.3em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .boite1, .boite2, .boite3, .boite4 {width: 100%;}
+      .conteneur2 {flex-direction:column-reverse}
+  }
+
+  /* **************  POUR TABLETTE  ********************* */
+  @media (min-width: 768px) and (max-width:991.98px){
+    .num1, .num2, .num3, .num4, .num5, .num6 {
+      width: 50%;}
+
+      .num7 {
+        width: 100%;}
+
+      .savoir {
+        border-radius: 15px;
+        background: rgba(161, 209, 173, 0.8);
+        width:50%;
+        margin: auto;
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+        padding:0.3em;
+        box-shadow: 0 5px 15px #c7c2c1;
+        color: white;
+      }
+
+      h5 {
+        font-size: 1.3em;
+        font-weight: 700;
+        color: #626262;
+        text-align: center;
+        padding-top: 0.6em;
+        padding-bottom: 0.3em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h6 {
+        font-size: 1.2em;
+        font-weight: 400;
+        color: #626262;
+        text-align: center;
+        padding-top: 0.6em;
+        padding-bottom: 0.3em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      h3 {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: 400;
+        color: #626262;
+        text-align: center;
+        padding-bottom: 0.3em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .logoettexte{
+        text-align: center;
+        margin-bottom: 2em;
+      }
+
+      .textecourant {
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+
+      .rgpd {
+        font-size: 1.3em;
+        font-weight: 700;
+        color: #626262;
+        text-align: center;
+        margin-top: 0.6em;
+        margin-bottom: 0.3em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .boite1, .boite2, .boite3, .boite4 {width: 50%;}
+
+  }
+
+  /* **************  POUR ECRAN  ********************* */
+  @media screen and (min-width: 992px){
+    .num1, .num2, .num3, .num4, .num5, .num6 {
+      width: 33.333333333333%;}
+
+      .num7 {
+        width: 100%;}
+
+      h5 {
+        text-align: left;
+      }
+
+      .savoir {
+        border-radius: 15px;
+        background: rgba(161, 209, 173, 0.8);
+        width:70%;
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+        padding:0.4em;
+        box-shadow: 0 5px 15px #c7c2c1;
+        color: white;
+        text-align: center;
+      }
+
+      .container {
+      	overflow:hidden;
+        display:flex;
+        flex-wrap: wrap;
+        margin-left:auto;
+        margin-right:auto;
+      	justify-content: center;
+      	align-items: stretch;
+        align-content: stretch;
+      }
+    .boite1, .boite2, .boite3, .boite4 {width: 50%;}
+
+
+
+  }
