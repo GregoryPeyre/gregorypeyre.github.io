@@ -1,116 +1,123 @@
-@media screen and (max-width: 1200px){
-    .container, header, main, footer, section{
+@media screen and (max-width: 1200px) {
+
+    .container, header, main, footer, section {
         width: 100%;
     }
 
     /***Header***/
-    .titre-header{
+    .titre-header {
         width: 100%;
     }
-    .titre-principal{
+    .titre-principal {
         width: 100%;
     }
-    .button,.cont-button{
+    .button,.cont-button {
         width: 100%;
     }
-    .souris{width: 100%;}
-    /***apropos***/
-    .apropos{
+    .souris {
         width: 100%;
+    }
 
+    /***apropos***/
+    .apropos {
+        width: 100%;
     }
-    .bloc img{
+    .bloc img {
         margin-top: 20px;
     }
-    .img-bloc{
+    .img-bloc {
         width: 90%;
         padding: 0;
         margin-top: 0;
     }
-    .contenu{
+    .contenu {
         width: 100%;
     }
-    .contact-me{
+    .contact-me {
         width: 100%;
     }
-    .contact-me a{
+    .contact-me a {
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
 
     /***competences***/
-    .competences{
+    .competences {
         width: 100%;
     }
 
     /***creations***/
-    .creation, .cont-creation{
+    .creation, .cont-creation {
         width: 100%;
     }
-    .creation{
+    .creation {
         padding-bottom: 80px;
     }
-    .cont-figure{
+    .cont-figure {
         max-width: 100%;
     }
-    .logo-foot,.cont-foot,.cont-log-foot{
+    .logo-foot,.cont-foot,.cont-log-foot {
         width: 100%;
     }
     .presentation-foot-g,
-    .presentation-foot-d{
+    .presentation-foot-d {
         padding: 0;
     }
 }
 
-@media screen and (max-width: 1100px){
-
+@media screen and (max-width: 1100px) {
 
     /***apropos***/
-    .contenu{ 
+    .contenu { 
         width:90%; 
         flex-direction: column;
     }
-    .bloc{
+    .bloc {
         width: 90%;
     }
-    .text-bloc,.titre-bloc{
+    .text-bloc,.titre-bloc {
         width: 100%; 
         text-align: center;
     }
-    .mission{width: 100%;}
+    .mission {
+        width: 100%;
+    }
 
     /***competences***/
-    .container-comp{
+    .container-comp {
         width:90%; flex-direction: column;
     }
-    .comp{
+    .comp {
         width: 90%; 
     }
-    .comp ul, h5{
+    .comp ul, h5 {
         text-align: center;
         padding: 0;
     }
-    .bloc-bar{
+    .bloc-bar {
         width: 100%; 
     }
-    .bar-span{
+    .bar-span {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 990px){
-        /***Header***/
-        .titre-header h1{
-            font-size: 40px;
-        }
-        .titre-header h2{
-            font-size: 30px;
-        }
+@media screen and (max-width: 990px) {
 
-        
+    /***Header***/
+    .titre-header h1 {
+        font-size: 40px;
+    }
+    .titre-header h2 {
+        font-size: 30px;
+    }
+    .img-bloc {
+        max-width: 50%;
+    }
+
     /***creations***/
-    .cont-figure{
+    .cont-figure {
         flex-direction: column;
     }
     .snip1584 {
@@ -119,11 +126,11 @@
     }
 
     /***footer***/
-    .cont-foot{
+    .cont-foot {
         flex-direction: column;
     }
     .presentation-foot-g,
-    .presentation-foot-d{
+    .presentation-foot-d {
         width: 90%;
         display: block;
         margin-right: auto;
@@ -131,116 +138,165 @@
     }
 }
 
-@media screen and (max-width: 700px){
-    .contenu{ width:100%;}
-    .bloc{width: 100%;}
+@media screen and (max-width: 700px) {
+
+    .contenu {
+        width:100%;
+    }
+    .bloc {
+        width: 100%;
+    }
 
     .snip1584 {
         max-width: 400px;
     }
+    .fondapropos, .fondcomp {
+        overflow: hidden;
+    }
 }
 
+@media screen and (max-width: 600px) {
 
-@media screen and (max-width: 600px){
     /***Header***/
-    .titre-header h1{
+    .titre-header h1 {
         font-size: 35px;
     }
-    .titre-header h2{
+    .titre-header h2 {
         font-size: 25px;
+    }
+    .img-bloc {
+        max-width: 60%;
     }
     .snip1584 {
         max-width: 400px;
     }
+    .fondapropos, .fondcomp {
+        overflow: hidden;
+    }    
 }
-@media screen and (max-width: 430px){
+
+@media screen and (max-width: 430px) {
+
     /***Header***/
-    .titre-header h1{
+    .titre-header h1 {
         font-size: 20px;
     }
-    .titre-header h2{
+    .titre-header h2 {
         font-size: 15px;
     }
-    .button a{
+    .button a {
         font-size: 10px;
     }
-
-    .center{
+    .img-bloc {
+        max-width: 60%;
+    }
+    .center {
         top: 55%;
     }
-    .button{ padding-top: 30px; }
+    .button { padding-top: 30px; }
     .snip1584 {
         max-width: 300px;
     }
+    .fondapropos, .fondcomp {
+        overflow: hidden;
+    }    
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 300px) {
+
     /***Header***/
-    /***Header***/
-    .titre-header h1{
+    .titre-header h1 {
         font-size: 15px;
     }
-    .titre-header h2{
+    .titre-header h2 {
         font-size: 10px;
     }
-    .button a{
+    .button a {
         width: 70px;
         font-size: 7px;
     }
-
+    .img-bloc {
+        max-width: 60%;
+    }
 
     /***APROPOS***/
-    .apropos h3{ font-size: 20px; }   
-    .apropos h4{ font-size: 15px; }
+    .apropos h3 {
+        font-size: 20px; 
+    }   
+    .apropos h4 {
+        font-size: 15px; 
+    }
+    .fondapropos {
+        overflow: hidden;
+    }    
 
     /***COMPETENCES***/
-    .competences h3{ font-size: 20px; }   
-    .competences h4{ font-size: 15px; }
-
-
+    .competences h3 {
+        font-size: 20px; 
+    }   
+    .competences h4 {
+        font-size: 15px; 
+    }
     .snip1584 {
         max-width: 250px;
     }
-
-    .snip1584 h5{
+    .snip1584 h5 {
         font-size: 10px;
     }
-    .snip1584 h6{
+    .snip1584 h6 {
         font-size: 10px;
     }
-    .snip1584 p{
+    .snip1584 p {
         font-size: 6px;
+    }
+    .fondcomp{
+        overflow: overflow: hidden;
     }
 }
 
-@media screen and (max-width: 200px){
+@media screen and (max-width: 200px) {
+
     /***Header***/
-
-
-
     .snip1584 {
         max-width: 100px;
     }
 
     /***APROPOS***/
-    .apropos h3{ font-size: 20px; }   
-    .apropos h4{ font-size: 15px; }
+    .apropos h3 {
+        font-size: 20px; 
+    }   
+    .apropos h4 {
+        font-size: 15px; 
+    }
+    .fondapropos {
+        overflow: hidden;
+    }    
 
     /***COMPETENCES***/
-    .competences h3{ font-size: 20px; }   
-    .competences h4{ font-size: 15px; }
+    .competences h3 {
+        font-size: 20px;
+    }   
+    .competences h4 {
+        font-size: 15px; 
+    }
+    .fondcomp{
+        overflow: overflow: hidden;
+    }
 
     /***CREATION***/
-    .creation h3{ font-size: 17px; }   
-    .creation h4{ font-size: 15px; }
-
-    .snip1584 h5{
+    .creation h3 {
+        font-size: 17px; 
+    }   
+    .creation h4 {
+        font-size: 15px; 
+    }
+    .snip1584 h5 {
         font-size: 10px;
     }
-    .snip1584 h6{
+    .snip1584 h6 {
         font-size: 10px;
     }
-    .snip1584 p{
+    .snip1584 p {
         font-size: 4px;
     }
 
