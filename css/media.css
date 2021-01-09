@@ -151,7 +151,7 @@
         max-width: 400px;
     }
     .fondapropos, .fondcomp {
-       background-size: contain;/*overflow: hidden;*/
+      display: none;
     }
 }
 
@@ -171,7 +171,7 @@
         max-width: 400px;
     }
     .fondapropos, .fondcomp {
-        background-size: contain;/*overflow: hidden;*/
+        display: none;
     }    
 }
 
@@ -198,7 +198,7 @@
         max-width: 300px;
     }
     .fondapropos, .fondcomp {
-        background-size: contain;/*overflow: hidden;*/
+        display: none;
     }    
 }
 
@@ -227,7 +227,7 @@
         font-size: 15px; 
     }
     .fondapropos {
-        background-size: contain;/*overflow: hidden;/*
+       display: none;
     }    
 
     /***COMPETENCES***/
@@ -250,7 +250,7 @@
         font-size: 6px;
     }
     .fondcomp{
-        background-size: contain;/*overflow: overflow: hidden;*/
+        display: none;
     }
 }
 
@@ -269,7 +269,7 @@
         font-size: 15px; 
     }
     .fondapropos {
-        overflow: hidden;
+        display: none;
     }    
 
     /***COMPETENCES***/
@@ -280,7 +280,7 @@
         font-size: 15px; 
     }
     .fondcomp{
-        overflow: overflow: hidden;
+        display: none;
     }
 
     /***CREATION***/
