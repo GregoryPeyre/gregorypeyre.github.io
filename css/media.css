@@ -52,7 +52,7 @@
         width: 100%;
     }
     .creation {
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
     .cont-figure {
         max-width: 100%;
@@ -151,7 +151,10 @@
         max-width: 400px;
     }
     .fondapropos, .fondcomp {
-      display: none;
+        display: none;
+    }
+    .container-comp{
+        padding-bottom: 0;
     }
 }
 
@@ -173,6 +176,9 @@
     .fondapropos, .fondcomp {
         display: none;
     }    
+    .container-comp{
+        padding-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -200,6 +206,9 @@
     .fondapropos, .fondcomp {
         display: none;
     }    
+    .container-comp{
+        padding-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 300px) {
@@ -232,7 +241,8 @@
 
     /***COMPETENCES***/
     .competences h3 {
-        font-size: 20px; 
+        font-size: 20px;
+        padding-top: 50px; 
     }   
     .competences h4 {
         font-size: 15px; 
@@ -251,6 +261,9 @@
     }
     .fondcomp{
         display: none;
+    }
+    .container-comp{
+        padding-bottom: 0;
     }
 }
 
@@ -275,12 +288,16 @@
     /***COMPETENCES***/
     .competences h3 {
         font-size: 20px;
+        padding-top: 50px;
     }   
     .competences h4 {
         font-size: 15px; 
     }
     .fondcomp{
         display: none;
+    }
+    .container-comp{
+        padding-bottom: 0;
     }
 
     /***CREATION***/
