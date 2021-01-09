@@ -185,8 +185,10 @@
 
     /***Header***/
     header {
-        min-height: 60vh;
-    }
+        background-position: unset;}
+.titre-header h2 {padding-top: 0px;}
+
+    
     .titre-header h1 {
         font-size: 20px;
     }
