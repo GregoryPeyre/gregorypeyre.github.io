@@ -535,7 +535,7 @@ section {
 }
 
 /*****FOND CLAVIER A PROPOS*****/
-.fondapropros {
+.fondapropos {
     margin-top: 60px; 
     width: 100%;
     height: 250px; 
@@ -971,35 +971,4 @@ footer {
     padding-top: 12px;
     padding-bottom: 12px;
     background: white;
-}
-
-/*****FLECHE*****/
-.fleche i {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.fleche {  
-    cursor: pointer;
-    position: fixed;
-    bottom: 30px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-    font-size: 160%;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px;
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    border: 1px solid #ffffff;
-    opacity: 0.4;
-    transition: 0.3s;
-    display: none;
-    background: #b71427;
-}
-
-.fleche:hover {
-    opacity: 2;
 }
