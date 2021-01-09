@@ -185,10 +185,11 @@
 
     /***Header***/
     header {
-        background-position: unset;}
-.titre-header h2 {padding-top: 0px;}
-
-    
+        background-position: unset;
+    }
+    .titre-header h2 {
+        padding-top: 0px;
+    }
     .titre-header h1 {
         font-size: 20px;
     }
