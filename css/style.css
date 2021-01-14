@@ -389,7 +389,7 @@ main {
 /*****SECTION*****/
 section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 76vh;
     background-color: rgb(255, 255, 255);
 }
 
@@ -455,7 +455,7 @@ section {
     width: 350px;
     min-height: 40px;
     margin: 20px; 
-    top: 0;
+    /*top: 0;*/
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -682,11 +682,6 @@ section {
 .cont-crea {
     width: 100%;
     min-height: 100vh; 
-    background: url('pcresponsive.png'); 
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-position: center;
 }
 
 .creation {
@@ -700,7 +695,8 @@ section {
     width: 1200px;
     min-height: 50px;
     margin: auto;
-    padding-bottom: 50px;
+    /*padding-top: 25px;*/
+    /*padding-bottom: 50px;*/
     display: flex;
 }
 
@@ -725,18 +721,14 @@ section {
 .snip1584 {
     position: relative;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
     overflow: hidden;
-    margin: auto;
-    margin-top: 50px;
-    min-width: 230px;
-    max-width: 315px;
+    margin: 72px auto;
+    /*min-width: 230px;*/
+    max-width: 300px;
     width: 100%;
     color: #ffffff;
     font-size: 16px;
-    text-align: left;
-    background-color: rgba(226, 226, 226, 0.466);
+    text-align: center;
     -webkit-box-shadow: 0px 0px 25px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 25px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 25px -7px rgba(0,0,0,0.75);
@@ -765,7 +757,6 @@ section {
 }
 
 .snip1584 img {
-    vertical-align: top;
     max-width: 90%;
     backface-visibility: hidden;
     display: block;
@@ -842,7 +833,7 @@ section {
     transition-delay: 0s;
 }
 
-.snip1584:hover h5,
+.snip1584:hover h5, 
 .snip1584.hover h5,
 .snip1584:hover h6,
 .snip1584.hover h6,
